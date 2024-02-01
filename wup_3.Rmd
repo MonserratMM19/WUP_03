@@ -32,6 +32,12 @@ basicCN + geom_boxplot()
    
 
 ## Numerical Summarys 
+  
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+  this graphs shows the amount of drinks students in different parts of a class drink per week, showing that the students in the back of the class drink much more then both the studens in the front and middle of the class. with students in the front drinking 1.78... drinks, the students in the Middle drinking only 3.33... drink and the students in the back taking the largest number drinking 8.55...drinks per week. 
+  
 
 ## Inferential Tests
 
